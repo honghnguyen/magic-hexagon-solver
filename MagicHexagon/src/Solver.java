@@ -8,7 +8,9 @@ public class Solver {
 		for(int i = 0; i < 19; i++) {
 			init[i] = 0;
 		}
+		System.out.println("Start running");
 		Node n = new Node(init, 0);
 		n.next();
+		
 	}
 }
